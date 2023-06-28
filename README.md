@@ -1,2 +1,1 @@
-# personal_website
-Personal website for my information, links to social networks, projects and blog/app.
+<h1 align="center">personal_website<h1>
