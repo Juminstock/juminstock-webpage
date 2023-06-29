@@ -1,2 +1,2 @@
 <h1 align="center">Personal website</h1>
-<p>Juminstock.</p>
+<p>Mi sitio web personal.</p>
