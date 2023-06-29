@@ -5,5 +5,6 @@
 2. Mis trabajos y proyectos.
 3. Documentación de proyectos.
 4. Guías de estudio.
+5. Cursos y tutoriales escritos y en vídeo.
 
 </p>
