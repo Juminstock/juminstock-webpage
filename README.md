@@ -1,1 +1,1 @@
-<h1 align="center">Personal website</h1>
+<h1 align="center">Other</h1>
