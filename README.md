@@ -1,1 +1,3 @@
-<h1 align="center">Juminstock website ⚡️</h1>
+# Title de prueba
+
+Hola, equipo, esta es una prueba! 🚀
