@@ -1,3 +1,3 @@
-# Title de prueba
+# Juminstock Website
 
-Hola, equipo, esta es una prueba! 🚀
+Official website for Juminstock's courses, blogs, portfolio and other important information related me.
