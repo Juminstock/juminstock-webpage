@@ -1,7 +1,8 @@
 {
   "name": "juminstock-website",
-  "author": {"name": "Carlos Rodriguez",
-    "username": "juminstock",
+  "author": {
+    "name": "Carlos Rodriguez",
+    "username": "@juminstock",
     "email": "juminstock@gmail.com"
   },
   "type": "module",
@@ -13,6 +14,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.6.1"
+    "astro": "^5.6.1",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro-icon": "^0.8.1",
+    "tailwindcss": "^3.4.1"
   }
 }

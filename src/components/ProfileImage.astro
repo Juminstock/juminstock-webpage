@@ -1,0 +1,16 @@
+---
+import { Image } from 'astro:assets';
+import profilePicture from '../assets/profile-picture.png';
+---
+
+<div class="relative bg-white rounded-xl overflow-hidden flex items-center justify-center max-h-[745px] flex-1">
+  <div class="w-full h-full overflow-hidden rounded-lg">
+    <Image
+      src={profilePicture}
+      alt="Profile"
+      width={800}
+      height={800}
+      class="w-full h-full object-cover"
+    />
+  </div>
+</div> 

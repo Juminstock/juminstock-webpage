@@ -1,0 +1,45 @@
+---
+import { Image } from 'astro:assets';
+import colombiaMap from '../assets/colombia-map.jpg';
+---
+
+<div class="bg-white rounded-xl overflow-hidden">
+  <Image
+    src={colombiaMap}
+    alt="Map of Colombia"
+    width={800}
+    height={200}
+    class="w-full h-32 object-cover"
+  />
+  <div class="p-4">
+    <div class="flex items-center gap-2 text-gray-700">
+      <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+        <circle cx="12" cy="10" r="3"></circle>
+      </svg>
+      <span>Colombia / Remote</span>
+    </div>
+    <div class="text-gray-500 text-sm mt-1">
+      <span id="localTime"></span> GMT-5 Local time
+    </div>
+  </div>
+</div>
+
+<script>
+  function updateTime() {
+    const now = new Date();
+    const timeString = now.toLocaleTimeString("es-ES", {
+      hour: "2-digit",
+      minute: "2-digit",
+      timeZone: "America/Bogota"
+    });
+    const timeElement = document.getElementById("localTime");
+    if (timeElement) {
+      timeElement.textContent = timeString;
+    }
+  }
+
+  // Update time immediately and then every minute
+  updateTime();
+  setInterval(updateTime, 60000);
+</script> 
